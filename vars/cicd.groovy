@@ -5,7 +5,7 @@ def gitDownload(repo)
 
 def buildArtifact()
 {
-   sh 'mvn pacakage'
+   sh 'mvn package'
 }
 
 def deploytomcat(jobname,ip,context)
